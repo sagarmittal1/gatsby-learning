@@ -1,0 +1,16 @@
+.project {
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 80px;
+  margin: 80px 20px;
+}
+
+.projectItem {
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.projectItem p{
+  color: aliceblue;
+}

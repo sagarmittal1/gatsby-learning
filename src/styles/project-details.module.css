@@ -1,0 +1,22 @@
+.details {
+  /* background-color: teal; */
+  margin: 20px auto;
+  /* text-align: center; */
+}
+
+.details h1 {
+  font-size: 40px;
+}
+
+.details h3 {
+  font-weight: 100;
+}
+
+.htmlContent {
+  background-color: crimson;
+  padding: 0px 30px;
+}
+
+.htmlContent img {
+  width: 100%;
+}

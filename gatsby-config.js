@@ -8,5 +8,19 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  plugins: [],
-}
+  plugins: [
+    'gatsby-transformer-remark',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/src/projects/`,
+      },
+    },
+  ],
+  siteMetadata: {
+    title: 'Sagar Mittal | Portfolio',
+    description: 'This is my personal portfolio website',
+    copyright: 'This website is copyright to Sagar Mittal 2023',
+  },
+};
